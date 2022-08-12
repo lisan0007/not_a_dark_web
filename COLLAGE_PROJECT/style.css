@@ -1,0 +1,119 @@
+/* https://www.figma.com/file/LJ8KC40jSPGR4rgEim2qYC/Chris-Courses---CSS?node-id=0%3A1 */
+body{
+  margin: 0;
+  padding:0 ;
+  font-family:arial;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+header{
+  padding-top: 18px;
+  padding-right: 20px;
+  padding-left: 10px;;
+  padding-bottom: 10px;
+}
+h1{
+  margin: 0px;
+}
+.bg-grey-900 {
+  background-color:rgb(22, 0, 71);
+}
+.text-white {
+  color: white;
+}
+.block{
+  display:block;
+}
+.inline-block{
+  display: inline-block;
+}
+.hidden{
+  display:none;
+}
+.inline{
+  display: inline;
+}
+.flex{
+  display: flex;
+}
+
+.justify-between{
+  justify-content : center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between2{
+  justify-content : space-between;
+}
+.paddding{
+  padding:8px 16px;
+}
+a{
+  text-decoration: none;
+}
+
+.text-brand-teal{
+  color: #90cac7;
+}
+.big-brand-teal{
+  background-color:#539D98;
+  border-radius: 20px;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-family: arial;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.50s, color 0.45s;
+}
+
+button:hover{
+  background-color: white;
+  color:#539D98 ;
+  cursor: pointer;
+}
+button:active{
+  background-color: aqua ;
+
+}
+.relative{
+  position: relative;
+
+}
+.z-10 {
+  z-index:100;
+}
+
+.object-cover{
+  object-fit: cover;
+}
+.bg-white{
+  background-color: white;
+  color:#539D98 ;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border: none;
+  border-radius: 3px;
+
+}
+
+.bg-white:hover{
+  background-color: #539D98;
+  color: white;
+}
+
+.absolute{
+  position:absolute;
+}
+.gst{
+  height: 40px;
+  width: 180px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
